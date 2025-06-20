@@ -30,7 +30,7 @@ var markerShinjukuPark = L.marker([35.68519613429679, 139.71004994614538]).addTo
 var popupShinjukuPark = `
   <div style="width:200px;">
     <div class="popup-title">신주쿠 교엔</div>
-    <img src="images/신주쿠공원.jpg" style="width:100%; border-radius:8px;" />
+    <img src="images/shinjuku-park.jpg" style="width:100%; border-radius:8px;" />
   </div>
 `;
 markerShinjukuPark.bindPopup(popupShinjukuPark);
