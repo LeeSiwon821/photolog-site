@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #f7f7f7;
+}
+#map {
+  height: calc(100vh - 0px);
+}
+.popup-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
