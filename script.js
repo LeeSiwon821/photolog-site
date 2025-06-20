@@ -27,7 +27,7 @@ markerOishi.bindPopup(popupOishi);
 
 // 신주쿠 교엔 마커
 var markerShinjukuPark = L.marker([35.68519613429679, 139.71004994614538]).addTo(map);
-var popuShinjukuPark = `
+var popupShinjukuPark = `
   <div style="width:200px;">
     <div class="popup-title">신주쿠 교엔</div>
     <img src="images/신주쿠공원.jpg" style="width:100%; border-radius:8px;" />
