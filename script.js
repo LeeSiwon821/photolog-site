@@ -24,3 +24,13 @@ var popupOishi = `
   </div>
 `;
 markerOishi.bindPopup(popupOishi);
+
+// 신주쿠 공원 마커
+var markerShinjukuPark = L.marker([35.52290400000001, 138.7457522]).addTo(map);
+var popuShinjukuPark = `
+  <div style="width:200px;">
+    <div class="popup-title">신주쿠 공원</div>
+    <img src="images/신주쿠공원.jpg" style="width:100%; border-radius:8px;" />
+  </div>
+`;
+markerShinjukuPark.bindPopup(popupShinjukuPark);
